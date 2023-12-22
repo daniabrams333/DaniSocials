@@ -14,10 +14,10 @@ class FriendsData: Identifiable {
     var id: String
     var name: String
     
-    init(name: String) {
+    init(myname: String) {
         
         self.id = UUID().uuidString
-        self.name = name
+        self.name = myname
         
         
     }
